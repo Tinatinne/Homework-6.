@@ -24,14 +24,14 @@
 .monkey {
     width: 150px;
     height: 150px;
-    top: 50px;
-    right: 50px;
+    top: 170px;
+    right: 300px;
     position: absolute;
-    animation: monkey 2sc infinite reverse;
+    animation: monkey 2s infinite reverse;
 }
 
 @keyframes monkey {
-    0%   {left: 0px}
-    50%  {right: 50px}
-    100% {left: 0px;}
+    0%   {right: 200px}
+    50%  {right: 200px top: 300px}
+    100% {right: 100px;}
 }
