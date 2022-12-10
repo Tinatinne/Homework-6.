@@ -1,0 +1,22 @@
+
+.background {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    box-shadow: 5px 10px rgb(36, 209, 62);
+}
+
+.bear-details {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 394px;
+    bottom: 196px;
+    transform: translate(180%);
+    animation: bear-details 3s infinite reverse;
+}
+@keyframes bear-details { 
+    0%   {left: 0px}
+    50%  {left: 200px}
+    100% {left: 0px}
+}
